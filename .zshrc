@@ -1,3 +1,4 @@
+#zsh auto compelte plug in
 source ~/.config/zsh-plugins//zsh-autocomplete/zsh-autocomplete.plugin.zsh
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
