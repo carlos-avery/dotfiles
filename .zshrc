@@ -87,7 +87,9 @@ esac
 
 export STARSHIP_DISTRO="$ICON"
 export EDITOR=nvim
-
+#keychain for wsl
+/usr/bin/keychain -q --nogui $HOME/.ssh/id_rsa $HOME/.ssh/id_ed25519
+source $HOME/.keychain/$HOST-sh
 
 
 eval "$(starship init zsh)"
